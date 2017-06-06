@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: VIX Digital Playbook
+title: VIX Digital Code Guide
 email: info@vix.digital
 description: > # this means to ignore newlines until "baseurl:"
   An instruction manual to help us run great projects
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://vix-digital.github.io/playbook" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://vix-digital.github.io/code-guide" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: vix_digital
 github_username:  vix-digital
 

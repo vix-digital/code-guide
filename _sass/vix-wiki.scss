@@ -84,7 +84,7 @@ a:hover {
     text-decoration: none;
 }
 
-ul {
+ul, ol {
     margin-left: 20px;
 }
 
@@ -155,6 +155,10 @@ ul {
     margin-top: 29px;
 }
 
+.section__content img {
+    max-width: 100%;
+}
+
 .section__content blockquote {
     padding: 0 1em;
     border-left: 0.2em solid $vix-pink;
@@ -165,11 +169,17 @@ ul {
     }
 }
 
+.section__content code.highlighter-rouge {
+    background: #f9f9f9;
+    padding: 5px;
+}
+
 .section__content .highlighter-rouge .highlight {
     padding: 20px;
     margin-top: 20px;
     background: #f9f9f9;
     border: 1px solid rgb(234, 234, 234);
+    overflow: auto;
 }
 
 .footer {

@@ -10,7 +10,6 @@ layout: default
 
     <div class="section">
         <h4 class="section__title">HTML</h4>
-        <p>Say something about HTML</p>
         {% for syntax in site.syntax %}
             {% if syntax.categories contains "html" %}
                 <p><a class="section__link" href="{{ syntax.url | relative_url }}">{{ syntax.title | escape }}</a></p>
@@ -20,7 +19,6 @@ layout: default
 
     <div class="section">
         <h4 class="section__title">CSS</h4>
-        <p>Say something about CSS</p>
         {% for syntax in site.syntax %}
             {% if syntax.categories contains "css" %}
                 <p><a class="section__link" href="{{ syntax.url | relative_url }}">{{ syntax.title | escape }}</a></p>
@@ -30,7 +28,6 @@ layout: default
 
     <div class="section">
         <h4 class="section__title">JavaScript</h4>
-        <p>Say something about JavaScript</p>
         {% for syntax in site.syntax %}
             {% if syntax.categories contains "javascript" %}
                 <p><a class="section__link" href="{{ syntax.url | relative_url }}">{{ syntax.title | escape }}</a></p>
@@ -40,7 +37,6 @@ layout: default
 
     <div class="section">
         <h4 class="section__title">Python</h4>
-        <p>Say something about Python</p>
         {% for syntax in site.syntax %}
             {% if syntax.categories contains "python" %}
                 <p><a class="section__link" href="{{ syntax.url | relative_url }}">{{ syntax.title | escape }}</a></p>
